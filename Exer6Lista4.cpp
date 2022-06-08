@@ -7,8 +7,10 @@ main()
 	int ano;//variavel do ano
 	cout<<"\n\nEntre com o ano desejado ";//entre com o ano
 		cin>>ano;//receba o ano
-	if (( ano >= 1752)&&(((ano%4==0)&&(ano%100>0)) || (ano%400==0 )))//utilize a regra para saber se o ano é bissesto
-		cout<<"\n\nO ano "<<ano<<" é bissexto\n\n";
+	if (( ano >= 1752)&&(((ano%4==0)&&(ano%100>0)) || (ano%400==0 )))//utilize a regra para saber se o ano Ã© bissesto
+		cout<<"\n\nO ano "<<ano<<" Ã© bissexto\n\n";
 	else
-		cout<<"\n\nO ano "<<ano<<" não é bissexto\n\n";
+		cout<<"\n\nO ano "<<ano<<" nÃ£o Ã© bissexto\n\n";
 }
+
+//opa
